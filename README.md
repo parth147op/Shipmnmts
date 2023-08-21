@@ -26,7 +26,7 @@ Navigate to the project directory:
 ### Start the server:
 `npm start`
 
-Open your browser and navigate to http://localhost:3000.
+Open your browser and navigate to http://localhost:4500.
 
 ## Usage
 
