@@ -16,6 +16,8 @@ exports.createComment = async (req, res) => {
             question:question1._id
         });
         await comment.save();
+
+        await Question.findByIdAndUpdate(question1._id,{$push:{comments:comment._id}});
         res.status(200).json({
             status: 'success',
             data: {
