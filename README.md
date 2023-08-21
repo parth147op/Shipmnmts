@@ -34,13 +34,13 @@ Register as a new user or log in.
 Once authenticated, you can ask new questions, edit or delete your questions, upvote/downvote questions, and comment on them.
 
 ## API Endpoints
--User Registration: POST /register
--User Login: POST /login
--Create Question: POST /questions/create
--Update Question: PUT /questions/:questionId
--Delete Question: DELETE /questions/:questionId
--Upvote Question: POST /questions/:questionId/upvote
--Downvote Question: POST /questions/:questionId/downvote
+- User Registration: POST /register
+- User Login: POST /login
+- Create Question: POST /questions/create
+- Update Question: PUT /questions/:questionId
+- Delete Question: DELETE /questions/:questionId
+- Upvote Question: POST /questions/:questionId/upvote
+- Downvote Question: POST /questions/:questionId/downvote
 
 ## Contributing
 
